@@ -16,7 +16,7 @@ main_format=dict(
     nsls_version='[![Anaconda-Server Badge](https://anaconda.org/nsls2forge/{name}/badges/version.svg)](https://anaconda.org/nsls2forge/{name})',
     downloads='[![Anaconda-Server Badge](https://anaconda.org/nsls2forge/{name}/badges/downloads.svg)](https://anaconda.org/nsls2forge/{name})')
 
-a = '''|[{name}](https://github.com/nsls-ii-forge/{name})|{build}|{health}|{cf_version} <br/> {nsls_version}|{downloads}|\n'''
+a = '''|[{name}](https://github.com/nsls-ii-forge/{name}-feedstock)|{build}|{health}|{cf_version} <br/> {nsls_version}|{downloads}|\n'''
 c = '''# Project Management
 Releases, Installers, Specs, and more!
 '''
